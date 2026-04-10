@@ -1,6 +1,8 @@
 # Tiva-WashingMachine-Control-
 This repository contains the firmware developed in Embedded C for a microcontroller-based washing machine control system. The project focuses on state-machine logic, real-time user interaction, and hardware safety protocols.
 
+For a detailed technical analysis of the system architecture, circuit diagrams, and logic flow, please refer to the Technical Report.
+
 Language: Embedded C
 
 Architecture: Tiva c series tm4c1294ncpdt
@@ -24,3 +26,4 @@ User Interface: * Keypad Integration: Allows users to select custom wash cycles.
 Real-time Display: Shows current status, elapsed time, and selected options.
 Safety & Reliability: * Hardware Interrupts: Implemented emergency stop routines triggered by electrical out-of-range conditions to protect the hardware and the user.
 Peripheral Management: Efficient use of GPIOs to control relays, sensors, and feedback components.
+
